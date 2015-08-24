@@ -30,4 +30,7 @@ min_length = 1e7
 for i in range(len(seq)):
     min_length = min(min_length, len(seq[i]))
     
-
+def orf2(seq):
+    for i in range(len(seq)):   
+        temp = seq[i]
+        if len(seq[1:])
